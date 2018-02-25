@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+
+@font-face {
+    font-family: 'aleo_regular';
+    src: url('../fonts/aleo-regular-webfont.eot');
+    src: url('../fonts/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aleo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aleo-regular-webfont.woff') format('woff'),
+         url('../fonts/aleo-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aleo_bold';
+    src: url('../fonts/aleo-bold-webfont.eot');
+    src: url('../fonts/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aleo-bold-webfont.woff2') format('woff2'),
+         url('../fonts/aleo-bold-webfont.woff') format('woff'),
+         url('../fonts/aleo-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+$text-aleo-regular: 14px aleo_regular;
+$text-aleo-bold: 14px aleo_bold;
+$text-font: 400 16px/1.4 'Josefin Sans', sans-serif;
+$text-color: #fff;
+
+$btn-color: #f0f;
+
+$border-width: 1px;
+
+// $button-font: 700 14px/1.4 'Open Sans', sans-serif;
+// $button-color: #666;
+
+// $primary-color: #fc0;
+// $secondary-color: #898f8f;
